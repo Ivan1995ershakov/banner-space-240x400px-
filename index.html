@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Разработчик Максим Сельденков lozarium@gmail.com  -->
+<meta charset="UTF-8" name="ad.size" content="width=240,height=400">
+<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+<meta http-equiv='pragma' content='no-cache' />
+<meta name='apple-mobile-web-app-capable' content='yes' />
+<meta name='viewport' content='initial-scale=1.0, maximum-scale=1.0, user-scalable=0, width=device-width, height=device-height'/>
+<title>index</title>
+<style media="screen">
+/* body{
+	background-color: black;
+} */
+ .box{
+ 	background-size: cover;
+ 	position: absolute;
+ 	width:240px;
+	height: 400px;
+	background-color: white;
+ }
+ .box div{
+ 	overflow: hidden;
+ }
+ .logo{
+	 position: absolute;
+	 width: 60%;
+	 left: 48px;
+	 top: 195px;
+	 z-index: 100;
+	 animation-name: logo;
+	 animation-duration: 11s;
+	 animation-iteration-count: infinite;
+   opacity: 0;
+ }
+ @keyframes logo {
+	12%{opacity: 0;top:185;}
+	20%{opacity: 1;top:195;}
+	78%{opacity: 1;top:195;}
+	92%{opacity: 0;}
+ }
+ .img1{
+	 pointer-events: none;
+	     top: 158px;
+	     left: 0px;
+	     position: absolute;
+	     width: 300px;
+	     height: 200px;
+	     z-index: 99;
+			 animation-name: img1;
+			 animation-duration: 11s;
+			 opacity: 0;
+			 animation-iteration-count: infinite;
+ }
+ @keyframes img1 {
+  0%{opacity: 0; top:170px;}
+ 	8%{opacity: 1; top:154px;}
+  11%{opacity: 1; top:161px;}
+	14%{opacity: 1; top:158px}
+	78%{opacity: 1; top:158px}
+	81%{opacity: 1; top:154px;}
+	91%{opacity: 0; top:170px}
+	100%{opacity: 0;}
+
+ }
+ .img2{
+	 pointer-events: none;
+	 top: 170px;
+   left: 0px;
+   position: absolute;
+	 width: 240px;
+   height: 260px;
+   z-index: 100;
+	 opacity: 0;
+	 animation-name: img2;
+	 animation-duration: 11s;
+	 animation-iteration-count: infinite;
+ }
+ @keyframes img2 {
+	0%{opacity: 0; top:190px;}
+	10%{opacity: 1; top:168px;}
+	12%{opacity: 1; top:173px;}
+  15%{opacity: 1; top:170px}
+  80%{opacity: 1; top:170px}
+  83%{opacity: 1; top:165px;}
+  93%{opacity: 0; top:190px}
+  100%{opacity: 0;}
+}
+
+ .img3{
+	 pointer-events: none;
+    position: absolute;
+    top: -40px;
+    left: -115px;
+    width: 200%;
+    z-index: 55;
+		animation-name:img3;
+		animation-duration: 11s;
+		animation-iteration-count: infinite;
+		opacity: 0;
+	}
+	@keyframes img3{
+		0%{opacity: 0;width:180%;}
+		20%{opacity: 1;}
+		30%{opacity: 1;}
+		40%{opacity: 0;width:200%;}
+	}
+
+.img4{
+	pointer-events: none;
+	position: absolute;
+	top: -40px;
+	left: -115px;
+	width: 200%;
+	z-index: 56;
+	animation-name:img4;
+	animation-duration: 11s;
+	animation-iteration-count: infinite;
+	opacity: 0;
+}
+@keyframes img4{
+	15%{opacity: 0;width:180%;}
+	35%{opacity: 1;}
+	45%{opacity: 1;}
+	55%{opacity: 0;width:200%;}
+}
+.img5{
+	pointer-events: none;
+	position: absolute;
+	top: -40px;
+	left: -115px;
+	width: 200%;
+	z-index: 57;
+	animation-name:img5;
+	animation-duration: 11s;
+	animation-iteration-count: infinite;
+	opacity: 0;
+}
+@keyframes img5{
+	35%{opacity: 0;width:180%;}
+	55%{opacity: 1;}
+	65%{opacity: 1;}
+	75%{opacity: 0;width:200%;}
+}
+ .img6{
+	 pointer-events: none;
+	 position: absolute;
+	 top: -40px;
+	 left: -115px;
+	 width: 200%;
+	 z-index: 58;
+	 animation-name:img6;
+ 	 animation-duration: 11s;
+ 	 animation-iteration-count: infinite;
+ 	 opacity: 0;
+ }
+ @keyframes img6{
+ 	50%{opacity: 0;width:180%;}
+ 	70%{opacity: 1;}
+ 	80%{opacity: 1;}
+ 	91%{opacity: 0;width:200%;}
+ }
+ .box img{
+ 	   clip: rect(0px 319px 230px 0px);
+ 	}
+	.box .img6{
+		clip: rect(0px 355px 950px 0px);
+	}
+	.box .img5{
+		clip: rect(0px 355px 950px 0px);
+	}
+	.box .img4{
+		clip: rect(0px 355px 950px 0px);
+	}
+	.box .img3{
+		clip: rect(0px 355px 950px 0px);
+	}
+	.box .line{
+		clip: rect(0px 160px 20px 0px);
+	}
+	.h3{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 500;
+		position: absolute;
+	  font-size: 21px;
+		top: 267px;
+		left: 61px;
+		z-index: 100;
+		color: #d5e0df;
+		animation-name: h3;
+		animation-duration: 11s;
+		animation-iteration-count: infinite;
+    opacity: 0;
+	}
+
+	@keyframes h3 {
+		16%{opacity: 0;top:280px;}
+		30%{opacity: 1;top:267px;}
+		80%{opacity: 1;top:267px;}
+		90%{opacity: 0;}
+	}
+
+.h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	position: absolute;
+	font-size: 15px;
+	top: 306px;
+	left: 65px;
+	z-index: 100;
+	color: #d5e0df;
+	animation-name: h1;
+	animation-duration: 11s;
+	animation-iteration-count: infinite;
+	opacity:0;
+}
+@keyframes h1 {
+	18%{opacity: 0;left:75px;}
+	29%{opacity: 1;left:65px;}
+	40%{opacity: 1;left:65px;}
+	50%{opacity: 0;left:55px}
+}
+.h2{
+	font-family: 'Montserrat', sans-serif;
+	    font-weight: 300;
+	    position: absolute;
+	    font-size: 15px;
+	    top: 325px;
+	    left: 60px;
+	    z-index: 100;
+	    color: #d5e0df;
+			animation-name: h2;
+			animation-duration: 11s;
+			animation-iteration-count: infinite;
+			opacity:0;
+}
+@keyframes h2 {
+	18%{opacity: 0;left:50px;}
+	29%{opacity: 1;left:60px;}
+	40%{opacity: 1;left:60px;}
+	50%{opacity: 0;left:70px}
+}
+.h6{
+    	font-family: 'Montserrat', sans-serif;
+	    font-weight: 400;
+	    text-align: center;
+	    line-height: 17px;
+	    position: absolute;
+	    font-size: 15px;
+	    top: 310px;
+	    left: 60px;
+	    z-index: 100;
+	    color: #d5e0df;
+			animation-name: h6;
+			animation-duration: 11s;
+			animation-iteration-count: infinite;
+			opacity: 0;
+}
+@keyframes h6 {
+	45%{opacity: 0;}
+	60%{opacity: 1;}
+	77%{opacity: 1;}
+	87%{opacity: 0;}
+}
+.line{
+	    z-index: 100;
+	    width: 70%;
+	    height: 2px;
+	    position: absolute;
+	    top: 310px;
+	    left: 36px;
+	    opacity: 0.7;
+			animation-name: line;
+			animation-duration: 11s;
+	    opacity: 0;
+			animation-iteration-count: infinite;
+}
+@keyframes line {
+	18%{opacity: 0;left:70px;}
+	32%{opacity: 0.7;left: 36px;}
+	82%{opacity: 0.7;left: 36px;}
+	92%{opacity: 0; left:26px;}
+}
+.h4{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	position: absolute;
+	font-size: 13px;
+	top: 356px;
+	left: 54px;
+	z-index: 100;
+	color: #d5e0df;
+	letter-spacing: 3px;
+	animation-name:h4;
+	animation-duration: 11s;
+	animation-iteration-count: infinite;
+	opacity: 0;
+}
+@keyframes h4 {
+	10%{opacity: 0;}
+	25%{opacity: 1;}
+	72%{opacity: 1;}
+	87%{opacity: 0;}
+}
+.h5{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	position: absolute;
+	font-size: 9px;
+	top: 375px;
+	left: 54px;
+	z-index: 100;
+	color: #d5e0df;
+	letter-spacing: 1px;
+	animation-name:h5;
+	animation-duration: 11s;
+	animation-iteration-count: infinite;
+	opacity: 0;
+}
+@keyframes h5 {
+	10%{opacity: 0;}
+	25%{opacity: 1;}
+	72%{opacity: 1;}
+	87%{opacity: 0;}
+}
+</style>
+</head>
+<body onload="init();" style="margin:0px;">
+	<a href="javascript:window.open(window.clickTag)">
+	  <div class="box">
+      <img class="img6" src="images/street2.jpg" alt="">
+	    <img class="img5" src="images/street1.jpg" alt="">
+	    <img class="img4" src="images/street.jpg" alt="">
+      <img class="img3" src="images/hole.jpg" alt="">
+	    <img class="img2" src="images/green.png" alt="">
+	    <img class="img1" src="images/white.png" alt="">
+	    <img class="logo" src="images/logo/logo1.png" alt="">
+	    <h1 class="h3">NUR ALEM</h1>
+			<img class="line" src="images/line.png" alt="">
+	    <h1 class="h1">ДАРИ ВРЕМЯ</h1><h1 class="h2"> СВОЕЙ СЕМЬЕ</h1>
+			<h1 class="h6">Уақытыңды<br>отбасыңа арна</h1>
+			<h1 class="h4">+7 7172 917123</h1>
+			<h1 class="h5">QAZEXPOCONGRESS.KZ</h1>
+	  </div>
+	</a>
+</body>
+</html>
